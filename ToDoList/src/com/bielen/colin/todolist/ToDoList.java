@@ -46,14 +46,11 @@ public class ToDoList extends Activity {
 						aa.notifyDataSetChanged();
 						myEditText.setText("");
 						return true;
-					} //end DPADCENTER check.
-					return false;
+					} //end DPADCENTER check.					
 				} //end ACTION_DOWN check. 			
 				return false;
 			}//end onKey()
         	
-        });//end setOnKeyListener
-        
-        
+        });//end setOnKeyListener()
     } //end onCreate()
-} //end ToDoList()
+} //end ToDoList class
