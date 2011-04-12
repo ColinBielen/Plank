@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="edit_text_instructions">(Enter New Text Here)</string>
     <string name="button_add_label">Add New Item</string>
     <string name="label_current_list">Current List:</string>
-    <string name="right_button_text">Right Button Text</string>
-    <string name="app_instructions">Enter to-do Items here:</string>
+    <string name="app_instructions">Enter to-do Items Here:</string>
     <string name="app_title">ToDo List</string>
-    <string name="hello">Hello World, ToDoList!</string>
     <string name="app_name">ToDoList</string>
 </resources>

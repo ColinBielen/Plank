@@ -10,19 +10,44 @@ package com.bielen.colin.todolist;
 public final class R {
     public static final class attr {
     }
+    public static final class color {
+        public static final int Black=0x7f040001;
+        public static final int Blue_opaque=0x7f040005;
+        public static final int Gray=0x7f040007;
+        public static final int Gray_DARK=0x7f040008;
+        public static final int Green_translucent=0x7f040006;
+        public static final int Red_bright=0x7f040003;
+        public static final int Red_opaque=0x7f040002;
+        public static final int Red_translucent=0x7f040004;
+        public static final int White=0x7f040000;
+    }
     public static final class drawable {
         public static final int icon=0x7f020000;
     }
     public static final class id {
-        public static final int EditText01=0x7f050001;
-        public static final int LinearLayout01=0x7f050000;
-        public static final int ListView01=0x7f050002;
+        public static final int EditText01=0x7f070002;
+        public static final int LinearLayout01=0x7f070000;
+        public static final int LinearLayout02=0x7f070003;
+        public static final int LinearLayout03=0x7f070007;
+        public static final int ListView01=0x7f070005;
+        public static final int RelativeLayout01=0x7f070001;
+        public static final int RelativeLayout02=0x7f070006;
+        public static final int TextView01=0x7f070004;
+        public static final int TextView02=0x7f070008;
     }
     public static final class layout {
         public static final int main=0x7f030000;
     }
     public static final class string {
-        public static final int app_name=0x7f040001;
-        public static final int hello=0x7f040000;
+        public static final int app_instructions=0x7f050003;
+        public static final int app_name=0x7f050005;
+        public static final int app_title=0x7f050004;
+        public static final int button_add_label=0x7f050001;
+        public static final int edit_text_instructions=0x7f050000;
+        public static final int label_current_list=0x7f050002;
+    }
+    public static final class style {
+        public static final int EditTextStyle=0x7f060001;
+        public static final int ToDoTheme=0x7f060000;
     }
 }

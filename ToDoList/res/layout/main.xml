@@ -4,13 +4,24 @@
 <LinearLayout android:id="@+id/LinearLayout01" 
 				android:layout_width="fill_parent" 
 android:layout_height="fill_parent" 
-xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical">
+xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/Gray" style="@style/ToDoTheme">
 
-<EditText android:text="New To-Do Item" 
-		  android:id="@+id/EditText01" 
-		  android:layout_height="wrap_content" 
-		  android:layout_width="fill_parent"></EditText>
-<ListView android:id="@+id/ListView01" 
-		  android:layout_height="wrap_content" android:layout_width="wrap_content"></ListView>
+<RelativeLayout android:id="@+id/RelativeLayout01" android:layout_height="fill_parent" android:layout_width="fill_parent" style="@style/ToDoTheme"><LinearLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_above="@+id/EditText01" android:id="@+id/LinearLayout02" android:layout_alignParentTop="true" style="@style/ToDoTheme" android:gravity="fill" android:orientation="vertical"><TextView android:id="@+id/TextView01" android:layout_height="wrap_content" android:text="@string/label_current_list" android:textColor="@color/White" android:textStyle="bold" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_width="fill_parent" android:background="@color/Gray_DARK" style="@style/ToDoTheme"></TextView><ListView android:id="@+id/ListView01" android:layout_height="wrap_content" android:hapticFeedbackEnabled="true" android:layout_width="wrap_content" android:tag="Hello!" android:visibility="visible" android:layout_gravity="top|fill" android:background="@color/Gray"></ListView></LinearLayout><RelativeLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_above="@+id/EditText01" android:id="@+id/RelativeLayout02" android:layout_alignParentBottom="true" style="@style/ToDoTheme">
+
+<LinearLayout android:layout_height="wrap_content" android:layout_toLeftOf="@+id/EditText01" android:id="@+id/LinearLayout03" android:orientation="vertical" android:layout_width="fill_parent" android:background="@color/Gray_DARK" style="@style/ToDoTheme"><TextView android:id="@+id/TextView02" android:layout_height="wrap_content" android:text="@string/app_instructions" android:textColor="@color/White" style="@style/ToDoTheme" android:textStyle="bold" android:layout_alignParentBottom="true" android:layout_width="fill_parent"></TextView><EditText android:id="@+id/EditText01" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_alignParentBottom="true" style="@style/EditTextStyle" android:text="@string/edit_text_instructions"></EditText></LinearLayout>
+</RelativeLayout>
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
 
 </LinearLayout>
