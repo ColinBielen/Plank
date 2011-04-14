@@ -48,7 +48,7 @@ public class ToDoList extends Activity {
 				if (KeyEvent.ACTION_DOWN == event.getAction()) {
 					if (keyCode == KeyEvent.KEYCODE_DPAD_CENTER) {
 						Log.d(TAG, "Adding Thingee to List View...");
-						String enteredText = myEditText.getText().toString();
+						String enteredText = myEditText.getText().toString().trim();
 						if (enteredText.length() > 0) {
 							toDoItems.add(enteredText);
 							aa.notifyDataSetChanged();
