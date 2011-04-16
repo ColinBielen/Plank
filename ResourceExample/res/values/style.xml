@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="ToDoTheme" parent="@android:style/Theme.Black">
+    <item name="android:textSize">20sp</item>
+    <item name="android:textColor">@color/White</item>
+  </style>
+  <style name="EditTextStyle" parent="@android:style/Widget.EditText">
+  	<item name="android:textSize">20sp</item>
+  	<item name="android:layout_height">25px</item>
+  </style>
+</resources>
