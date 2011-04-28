@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+<LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout1" android:orientation="vertical" android:layout_width="fill_parent">
+    <TextView android:text="@string/instructions_text" android:id="@+id/checkedTextView1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="@color/White" android:typeface="serif" android:textStyle="bold|italic"></TextView>
+    <TextView android:text="@string/instructions_colors_and_background_text" android:background="@color/White" android:id="@+id/checkedTextView2" android:visibility="visible" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="@color/Blue_opaque" android:textSize="10sp" android:textStyle="italic"></TextView>
+    <TextView android:id="@+id/checkedTextView3" android:layout_height="wrap_content" android:text="@string/instructions_center_text" android:background="@color/Gray" android:layout_gravity="center" android:layout_width="wrap_content" style="@style/ToDoTheme" android:layout_marginBottom="10sp" android:layout_marginTop="10sp"></TextView>
+    <TextView android:id="@+id/textView1" android:layout_width="fill_parent" android:background="@color/White" android:paddingBottom="-10sp" android:paddingTop="-10sp" android:layout_marginBottom="10sp" android:layout_height="5sp"></TextView>
+    <TextView android:id="@+id/checkedTextView4" android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="@string/instructions_string_center_text" android:textAppearance="@style/ToDoTheme" android:background="@color/Gray" android:layout_gravity="center" android:gravity="center_vertical|center_horizontal" android:paddingBottom="15sp"></TextView>
+    <EditText android:text="@string/instructions_edit_text" android:layout_height="wrap_content" android:id="@+id/editText1" android:layout_width="match_parent" style="@style/EditTextStyle"></EditText>
+    <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout2" android:layout_width="match_parent">
+        <TextView android:id="@+id/textView2" android:layout_height="20sp" android:layout_width="150sp" android:text="@string/empty_space_value" android:textColor="@color/Black"></TextView>
+        <EditText android:layout_height="wrap_content" android:id="@+id/editText2" android:layout_width="match_parent" android:text="@string/instructions_right_text" android:singleLine="true"></EditText>
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>

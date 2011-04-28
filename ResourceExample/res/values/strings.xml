@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, ResourceActivity!</string>
+    <string name="app_name">ResourceExample</string>
+    <string name="instructions_text">Enter to Do Items</string>
+    <string name="instructions_colors_and_background_text">Change the foreground / background colors, wrap width</string>
+    <string name="instructions_center_text">Center the Text View</string>
+    <string name="instructions_string_center_text">Center String in TextView</string>
+    <string name="instructions_edit_text">Better Way</string>
+    <string name="instructions_right_text">Right Edit Text</string>
+    <string name="empty_space_value">empty</string>
+</resources>
