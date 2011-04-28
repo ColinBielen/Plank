@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+android:id="@+id/mainscrollview"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+<LinearLayout
+android:id="@+id/mainlinearlayout"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+<TextView
+android:id="@+id/text1"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="@string/select_layout"
+android:textSize="20dp"
+android:layout_marginBottom="10dp"
+android:layout_marginTop="10dp"
+>
+</TextView>
+<RadioGroup
+android:id="@+id/radio_group"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+>
+<RadioButton
+android:id="@+id/radio_button_linear"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/radio_linear"
+android:layout_marginBottom="1dp"
+>
+</RadioButton>
+<RadioButton
+android:id="@+id/radio_button_mixed"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="@string/radio_mixed"
+android:layout_marginBottom="10dp"
+>
+</RadioButton>
+<!--<RadioButton-->
+<!--android:id="@+id/radio_button_relative2"-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:text="@string/radio_relative"-->
+<!--android:layout_marginBottom="10dp"-->
+<!-->-->
+<!--</RadioButton>-->
+<RadioButton
+android:id="@+id/radio_button_relative1"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/radio_relative_simple"
+android:layout_marginBottom="10dp"
+>
+</RadioButton>
+<RadioButton
+android:id="@+id/radio_button_table"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/radio_relative_table"
+android:layout_marginBottom="10dp"
+>
+</RadioButton>
+</RadioGroup>
+<Button
+android:id="@+id/button_doit"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Go"
+android:paddingLeft="20dp"
+android:paddingRight="20dp"
+android:layout_gravity="center"
+>
+</Button>
+
+<CheckBox android:id="@+id/check1"
+   android:paddingBottom="24dp"
+   android:paddingTop="dp"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:text="@string/controls_1_checkbox_1" 
+ />
+</LinearLayout>
+</ScrollView>

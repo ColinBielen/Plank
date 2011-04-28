@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">ViewsAndGroups</string>
+<string name="select_layout">Select a layout</string>
+<string name="radio_mixed">Relative Inside LinearLayout</string>
+<string name="radio_linear">LinearLayouts (extended view)</string>
+<string name="radio_relative">RelativeLayouts (2 layouts)</string>
+<string name="radio_relative_simple">RelativeLayout</string>
+<string name="radio_relative_table">TableLayout</string>
+<string name="controls_1_checkbox_1">Checkbox</string>
+<string name="enter_to_do_list">Enter to do items:</string>
+<string name="to_do_header_linear">Using 2 Linear Layouts</string>
+<string name="entry">Items</string>
+<string name="hello">Hello</string>
+<string name="to_do_header_mixed">Using Linear and Relative Layouts</string>
+<string name="to_do_header_relative1">Using 1 Relative Layout</string>
+<string name="to_do_header_table">Using Table Layouts</string>
+</resources>

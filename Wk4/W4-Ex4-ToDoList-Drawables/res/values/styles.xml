@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="ToDoTheme" parent="@android:style/Theme.Black">
+    <item name="android:textSize">10sp</item>
+  </style>
+  <style name="PlayTheme" parent="@android:style/Theme.Black">
+  	<item name="android:textSize">10sp</item>
+  	<item name="android:textColor">@color/Green_translucent</item>
+  </style>
+  <style name="EditTextStyle" parent="@android:style/Widget.EditText">
+  	<item name="android:textSize">20sp</item>
+  	<item name="android:textColor">@color/Green_translucent</item>
+  </style>
+  <style name="ButtonBlue" parent="@android:style/Widget.Button">
+	    <item name="android:background">@drawable/btn_blue</item>
+	    <item name="android:textColor">@android:color/white</item>
+	    <item name="android:paddingLeft">10dp</item>
+	    <item name="android:paddingRight">10dp</item>
+	    <item name="android:singleLine">true</item>
+	    <item name="android:ellipsize">end</item>
+      </style>
+  
+</resources>

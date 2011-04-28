@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_happy"
+        android:title="Happy"
+        android:icon="@drawable/stat_happy" />
+
+    <item android:id="@+id/menu_neutral"
+        android:title="Neutral"
+        android:icon="@drawable/stat_neutral" />
+    <item android:id="@+id/menu_sad"
+        android:title="Sad"
+        android:icon="@drawable/stat_sad" />
+    <item android:id="@+id/menu_item4"
+        android:title="item4" />
+     <item android:id="@+id/menu_item5"
+        android:title="item5" />
+     <item android:id="@+id/menu_item6"
+        android:title="item6" />
+    <item android:id="@+id/menu_item7"
+        android:title="item7" />
+</menu>
+

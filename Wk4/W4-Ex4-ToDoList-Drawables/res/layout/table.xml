@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+ <TableRow>
+     <TextView
+    android:id="@+id/text_screen0" 
+    android:text=" " 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+	/>
+    <TextView
+    android:id="@+id/text_screen" 
+    android:text="@string/to_do_header_table" 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center" 
+    android:textSize="15dp"
+    android:textColor="@color/Blue_opaque"
+    android:background="@color/White"
+	/>
+ </TableRow>
+ <TableRow>
+ <ImageView 
+   android:id="@+id/picview"
+   android:layout_width="25dp"
+   android:layout_height="25dp"
+   android:src="@drawable/android"
+/>
+<TextView
+    android:id="@+id/text_screen1" 
+    android:text="@string/enter_to_do_list" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+	android:textSize = "20dp"
+	android:layout_marginLeft ="5dp"
+	android:layout_marginRight ="5dp"
+/> 
+<Button
+    android:id="@+id/my_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Button"
+    />
+ </TableRow>
+ <TableRow>
+
+<EditText
+	android:id="@+id/myEditText"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/entry"
+/>
+ </TableRow>
+ 
+ 
+<TableRow>
+<Button
+    android:id="@+id/my_button1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Button"
+    android:layout_marginTop="20dp"
+    /> 
+  </TableRow>
+    
+
+</TableLayout>
+
+

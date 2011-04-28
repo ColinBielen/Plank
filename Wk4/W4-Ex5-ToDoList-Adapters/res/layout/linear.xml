@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView
+    android:id="@+id/text_screen" 
+    android:text="@string/to_do_header_linear" 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center" 
+    android:textSize="15dp"
+    android:textColor="@color/Blue_opaque"
+    android:background="@color/White"
+	/>
+
+<com.fsavage.classexample.ImageTextButton
+	android:id="@+id/imageTextButton"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"	
+>
+</com.fsavage.classexample.ImageTextButton>
+<com.fsavage.classexample.ClearableEditText
+	android:id="@+id/myClearEditText"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+/>
+
+
+<EditText
+	android:id="@+id/myEditText"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/entry"
+/>
+<ListView
+	android:id="@+id/myListView"  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+/>
+<Button
+    android:id="@+id/my_button1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Button"
+    android:layout_marginTop="200dp"
+    android:layout_gravity = "center"
+    /> 
+</LinearLayout>
+
