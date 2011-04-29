@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, ExplicitIntents!</string>
+    <string name="app_name">Explicit Intents</string>
+    <string name="activitytwo_name">Activity Two</string>
+    <string name="textA1">Activity1 (Explicit Intents)-text1</string>
+    <string name="textA2">Activity1 (Explicit Intents)-text2</string>
+    <string name="textB1">Activity2 - text1 </string>
+    <string name="textB2">Activity2 - text2</string>
+    <string name="emptyString"></string>
+</resources>
