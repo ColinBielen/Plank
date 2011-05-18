@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Part1Activity!</string>
+    <string name="app_name">MidtermApp</string>
+    <string name="FullName">Colin Bielen</string>
+    <string name="FirstName">Colin</string>
+    <string name="changeForegroundInstructions">Change Fore/Background colors, wrap width</string>
+    <string name="ScrollableInstruction">Make View Scrollable</string>
+    <string name="instructions">Add Button (Blue unselected, Green selected)</string>
+    <string name="right_edit_text_button">Right Edit Text</string>
+    <string name="empty_space_value"></string>
+</resources>

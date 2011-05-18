@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:orientation="vertical">
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="vertical" android:paddingTop="10sp">
+        <TextView android:id="@+id/textView1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/fullname"></TextView>
+        <TextView android:id="@+id/textView2" style="@style/SmallFontCustomTheme" android:layout_height="wrap_content" android:background="@color/Gray" android:layout_width="match_parent" android:text="@string/instructions" android:paddingTop="7sp" android:paddingBottom="7sp" android:textStyle="italic"></TextView>
+        <EditText android:text="@string/empty_string" android:layout_height="wrap_content" android:id="@+id/editText1" android:layout_width="match_parent"></EditText>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/linearLayout2" android:layout_height="wrap_content" android:layout_width="match_parent" android:gravity="center_horizontal">
+        <Button android:id="@+id/button1" android:layout_height="wrap_content" style="@style/ButtonBlue" android:layout_width="wrap_content" android:text="@string/firstname" android:gravity="center" android:layout_marginTop="20sp"></Button>
+    </LinearLayout>
+</LinearLayout>

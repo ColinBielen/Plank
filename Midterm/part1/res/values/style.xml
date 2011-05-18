@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style parent="@android:style/Theme.Black" name="CustomTheme">
+    <item name="android:textSize">20sp</item>
+    <item name="android:textColor">@color/White</item>
+  </style>
+  <style name="EditTextStyle" parent="@android:style/Widget.EditText">
+  	<item name="android:textSize">20sp</item>
+  	<item name="android:layout_height">25px</item>
+  </style>
+    <style name="ButtonBlue" parent="@android:style/Widget.Button">
+	    <item name="android:background">@drawable/btn_blue</item>
+	    <item name="android:textColor">#ffffff</item>
+	    <item name="android:paddingLeft">10dp</item>
+	    <item name="android:paddingRight">10dp</item>
+	    <item name="android:singleLine">true</item>
+	    <item name="android:ellipsize">end</item>
+      </style>
+  <style parent="CustomTheme" name="SmallFontCustomTheme">
+    <item name="android:textSize">15sp</item>   
+  </style>
+</resources>
